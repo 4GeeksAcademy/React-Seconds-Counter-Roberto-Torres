@@ -21,8 +21,8 @@ const SecondsCounter = (props) => {
                         if (number > 0) {
                             if (number === alert) {
                                 swal.fire({
-                                    imageUrl: "https://www.defensa.com/adjuntos/2(2943).jpg",
-                                    html: `<h1>Te quedan ${alert} segundos para ser disparado.</h1>`,
+                                    imageUrl: "https://i.pinimg.com/originals/c5/41/49/c541499c87b75eb01037d384b1ddba1f.jpg",
+                                    html: `<h1>Te quedan ${alert} segundos para terminar.</h1>`,
                                     imageHeight: "400",
                                     imageWidth: "500",
                                     timer: "5000"
@@ -37,7 +37,7 @@ const SecondsCounter = (props) => {
                     } else {
                         if (alert != false && number + 1 === alert) {
                             swal.fire({
-                                imageUrl: "https://www.defensa.com/adjuntos/2(2943).jpg",
+                                imageUrl: "https://i.pinimg.com/originals/c5/41/49/c541499c87b75eb01037d384b1ddba1f.jpg",
                                 html: `<h1>Vas por el segundo ${alert}, vas bien.</h1>`,
                                 imageHeight: "400",
                                 imageWidth: "500",
